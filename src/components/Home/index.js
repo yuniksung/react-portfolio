@@ -1,10 +1,10 @@
-import React, {useEffect } from 'react'
+import React from 'react'
 
 function homePage() {
     return (
-        <div>
+        <div className="homepage">
+            sadas
         </div>
-
     )
 }
 

@@ -15,7 +15,6 @@ function header() {
                         </div>
                         <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. Especially I have serious passion for UI design, animations and creating intuitive, dynamic user experiences.</p>
                         
-                        <a target="_blank" href="/">Resume</a>
                     </div>
                 </section>
             </section>

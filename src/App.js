@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Nav from './components/Nav'
 import Header from './components/Header'
 import About from './components/About'
-// import Home from './components/Home'
+import Footer from './components/Footer'
+import Home from './components/Home'
 
 function App() {
 
@@ -13,21 +14,14 @@ function App() {
       switch (currentPage) {
         case 'About': 
         return <About />
-  
-        // case 'Blog': 
-        // return <Blog />
-  
-        // case 'Contact': 
-        // return <Contact />
-    
+
         default: 
-        // return <Home />
-  
+        return <Home />
       }
     };
 
     return (
-        <div>
+    <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <Header></Header>
       <div>
@@ -37,6 +31,7 @@ function App() {
             </div>
           }
       </div>
+      <Footer />
     </div>
 
     )
