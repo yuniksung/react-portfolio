@@ -27,9 +27,9 @@ const work = () => {
                 </div>
                 <div className="left-links">
                     {/* <!-- Link to git repository --> */}
-                    <a href="https://github.com/yuniksung/Team-profile-generator" target="_blank"><i className="fab fa-github-square"></i></a>
+                    <a href="https://github.com/yuniksung/Team-profile-generator" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
                     {/* <!-- link to deployed application --> */}
-                    {/* <!-- <a href="https://yuniksung.github.io/work-day-scheduler/" target="_blank"><i className="fas fa-external-link-square-alt"></i></a> --> */}
+                    {/* <!-- <a href="https://yuniksung.github.io/work-day-scheduler/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-square-alt"></i></a> --> */}
                 </div>
             </div>
         </div>
@@ -52,9 +52,9 @@ const work = () => {
                 </div>
                 <div className="right-links">
                     {/* <!-- Link to git repository --> */}
-                    <a href="https://github.com/yuniksung/weather-dashboard" target="_blank"><i className="fab fa-github-square"></i></a>
+                    <a href="https://github.com/yuniksung/weather-dashboard" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
                     {/* <!-- link to deployed application --> */}
-                    <a href="https://yuniksung.github.io/weather-dashboard/" target="_blank"><i className="fas fa-external-link-square-alt"></i></a>
+                    <a href="https://yuniksung.github.io/weather-dashboard/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-square-alt"></i></a>
                 </div>
             </div>
             
@@ -78,9 +78,9 @@ const work = () => {
                 </div>
                 <div className="left-links">
                     {/* <!-- Link to git repository --> */}
-                    <a href="https://github.com/axeliono/group-project-1" target="_blank"><i className="fab fa-github-square"></i></a>
+                    <a href="https://github.com/axeliono/group-project-1" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
                     {/* <!-- link to deployed application --> */}
-                    <a href="https://axeliono.github.io/group-project-1/" target="_blank"><i className="fas fa-external-link-square-alt"></i></a>
+                    <a href="https://axeliono.github.io/group-project-1/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-square-alt"></i></a>
                 </div>
             </div>
         </div>
@@ -106,9 +106,9 @@ const work = () => {
                 </div>
                 <div className="right-links">
                     {/* <!-- Link to git repository --> */}
-                    <a href="https://github.com/axeliono/Music-Line/" target="_blank"><i className="fab fa-github-square"></i></a>
+                    <a href="https://github.com/axeliono/Music-Line/" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
                     {/* <!-- link to deployed application --> */}
-                    <a href="https://guarded-dawn-15470.herokuapp.com/" target="_blank"><i className="fas fa-external-link-square-alt"></i></a>
+                    <a href="https://guarded-dawn-15470.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-square-alt"></i></a>
                 </div>
             </div>
         </div>
@@ -121,10 +121,10 @@ const work = () => {
             <div className="box-1 box">
                 <header>
                     <div className="link-project">
-                        <a href="https://github.com/yuniksung/Yunique" target="_blank">
+                        <a href="https://github.com/yuniksung/Yunique" target="_blank" rel="noreferrer">
                             <i className="fab fa-github-square"></i>
                         </a>
-                        <a href="https://yuniksung.github.io/Yunique/" target="_blank">
+                        <a href="https://yuniksung.github.io/Yunique/" target="_blank" rel="noreferrer">
                             <i className="fas fa-external-link-square-alt"></i>
                         </a>
                     </div>
@@ -150,10 +150,10 @@ const work = () => {
             <div className="box-2 box">
                 <header>
                     <div className="link-project">
-                        <a href="https://github.com/yuniksung/getPassword" target="_blank">
+                        <a href="https://github.com/yuniksung/getPassword" target="_blank" rel="noreferrer">
                             <i className="fab fa-github-square"></i>
                         </a>
-                        <a href="https://yuniksung.github.io/getPassword/" target="_blank">
+                        <a href="https://yuniksung.github.io/getPassword/" target="_blank" rel="noreferrer">
                             <i className="fas fa-external-link-square-alt"></i>
                         </a>
                     </div>
@@ -178,10 +178,10 @@ const work = () => {
             <div className="box-3 box">
                 <header>
                     <div className="link-project">
-                        <a href="https://github.com/yuniksung/codeQuiz" target="_blank">
+                        <a href="https://github.com/yuniksung/codeQuiz" target="_blank" rel="noreferrer">
                             <i className="fab fa-github-square"></i>
                         </a>
-                        <a href="https://yuniksung.github.io/codeQuiz/" target="_blank">
+                        <a href="https://yuniksung.github.io/codeQuiz/" target="_blank" rel="noreferrer">
                             <i className="fas fa-external-link-square-alt"></i>
                         </a>
                     </div>
@@ -205,10 +205,10 @@ const work = () => {
             <div className="box-4 box">
                 <header>
                     <div className="link-project">
-                        <a href="https://github.com/yuniksung/employer-tracker" target="_blank">
+                        <a href="https://github.com/yuniksung/employer-tracker" target="_blank" rel="noreferrer">
                             <i className="fab fa-github-square"></i>
                         </a>
-                        {/* <!-- <a href="https://yuniksung.github.io/codeQuiz/" target="_blank">
+                        {/* <!-- <a href="https://yuniksung.github.io/codeQuiz/" target="_blank" rel="noreferrer">
                             <i className="fas fa-external-link-square-alt"></i>
                         </a> --> */}
                     </div>
@@ -232,10 +232,10 @@ const work = () => {
             <div className="box-5 box">
                 <header>
                     <div className="link-project">
-                        <a href="https://github.com/yuniksung/note-takr" target="_blank">
+                        <a href="https://github.com/yuniksung/note-takr" target="_blank" rel="noreferrer">
                             <i className="fab fa-github-square"></i>
                         </a>
-                        {/* <!-- <a href="https://yuniksung.github.io/codeQuiz/" target="_blank">
+                        {/* <!-- <a href="https://yuniksung.github.io/codeQuiz/" target="_blank" rel="noreferrer">
                             <i className="fas fa-external-link-square-alt"></i>
                         </a> --> */}
                     </div>

@@ -14,7 +14,7 @@ function homePage() {
                 <p>
                     A Talented,
                     Skillful,
-                    Motivated 
+                    Motivated and
                     Web Developer
                 </p>
             </div>

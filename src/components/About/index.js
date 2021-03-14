@@ -64,26 +64,26 @@ const aboutPage = () => {
                     </a>
                 </div>
                 <div className="button">
-                    <a target="_blank" href="https://www.linkedin.com/in/yun-ik-sung-0a02a326/" className="icon">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yun-ik-sung-0a02a326/" className="icon">
                         <i className="fab fa-linkedin-in"></i>
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/yun-ik-sung-0a02a326/">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yun-ik-sung-0a02a326/">
                         <span>LinkedIn</span>
                     </a>
                 </div>
                 <div className="button">
-                    <a target="_blank" href="https://github.com/yuniksung" className="icon">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/yuniksung" className="icon">
                         <i className="fab fa-github"></i>
                     </a>
-                    <a target="_blank" href="https://github.com/yuniksung">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/yuniksung">
                         <span>GitHub</span>
                     </a>
                 </div>
                 <div className="button">
-                    <a target="_blank" href="./assets/images/Resume_Yunik Sung.pdf" className="icon">
+                    <a target="_blank" rel="noreferrer" href="./assets/images/Resume_Yunik Sung.pdf" className="icon">
                         <i className="far fa-file-alt"></i>
                     </a>
-                    <a target="_blank" href="./assets/images/Resume_Yunik Sung.pdf">
+                    <a target="_blank" rel="noreferrer" href="./assets/images/Resume_Yunik Sung.pdf">
                         <span>Resume</span>
                     </a>
                 </div>
