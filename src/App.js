@@ -6,7 +6,8 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Work from './components/Work'
 import Contact from './components/Contact'
-import Resume from './components/Resume'
+// import Resume from './components/Resume'
+
 
 function App() {
 
@@ -24,8 +25,8 @@ function App() {
         case 'Contact': 
         return <Contact />
 
-        case 'Resume': 
-        return <Resume />
+        // case 'Resume': 
+        // return <Resume />
 
         default: 
         return <Home />

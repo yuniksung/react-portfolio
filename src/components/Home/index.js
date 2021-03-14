@@ -7,7 +7,7 @@ function homePage() {
     return (
         <div className="homepage-container">
             <div className="homepage-image">
-                
+
             </div>
 
             <div className="homepage-text">
@@ -17,8 +17,8 @@ function homePage() {
                     </h1>
                     <p>
                         A Talented,
-                        Skillful,
-                        Motivated and
+                        Skillful, and
+                        Motivated 
                         Web Developer
                     </p>
                 </div>

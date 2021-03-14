@@ -2,7 +2,7 @@ import React from 'react';
 import '../../assets/scss/nav.scss';
 
 function NavTabs(props) {
-    const tabs = ['Home', 'About', 'Work', 'Contact', 'Resume'];
+    const tabs = ['Home', 'About', 'Work', 'Contact'];
 
 
     return(
@@ -24,6 +24,9 @@ function NavTabs(props) {
             ))}
             
             </ul>
+            <div className="resume-button">
+                <a target="_blank" rel="noreferrer" href="./resume_yunik.pdf">Resume</a>
+            </div>
         </div>
     )
 

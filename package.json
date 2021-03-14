@@ -7,6 +7,7 @@
     "node-sass": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-pdf": "^5.2.0",
     "react-scripts": "^4.0.3"
   },
   "scripts": {
@@ -16,7 +17,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
