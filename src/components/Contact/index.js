@@ -43,42 +43,53 @@ const ContactForm = () => {
 
     return (
         <section className="contact-container">
-            <h1 data-testid="h1tag">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input 
-                        type="text" 
-                        defaultValue={name}
-                        onBlur={handleChange}
-                        name="name" 
+            <div className="contact-description">
+                <div className="contact-description-img">
+                he
+                </div>
+            </div>
+            <div className="contact-fields">
+                <h1 data-testid="h1tag">Contact me</h1>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <div className="name-field">
+                        {/* <label htmlFor="name">Name:</label> */}
+                        <input 
+                            type="text" 
+                            defaultValue={name}
+                            onBlur={handleChange}
+                            placeholder="Name"
+                            name="name" 
+                            />
+                    </div>
+                    <div>
+                        {/* <label htmlFor="email">Email address:</label> */}
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="Email"
+                            defaultValue={email} 
+                            onBlur={handleChange}
                         />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input 
-                        type="email" 
-                        name="email" 
-                        defaultValue={email} 
-                        onBlur={handleChange}
-                    />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea 
-                        name="message" 
-                        defaultValue={message}
-                        onBlur={handleChange}
-                        rows="5"  
-                    />
-                    {errorMessage && (
-                        <div>
-                            <p className="error-text">{errorMessage}</p>
-                        </div>
-                    )}
-                </div>
-                <button data-testid="button" type="submit">Submit</button>
-            </form>
+                    </div>
+                    <div>
+                        {/* <label htmlFor="message">Message:</label> */}
+                        <textarea 
+                            name="message" 
+                            defaultValue={message}
+                            onBlur={handleChange}
+                            rows="6"  
+                            placeholder="Message..."
+                        />
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
+                    </div>
+                    <button data-testid="button" type="submit">Submit</button>
+                </form>
+            </div>
+            
         </section>
     );
 }

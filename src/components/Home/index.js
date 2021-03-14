@@ -19,7 +19,7 @@ function homePage() {
                 </p>
             </div>
             <div className="home-description">
-                <p>Welcome to my portfolio, this website was built with React.JS. Feel free to look around and if you have any questions, do not hesitate to contact me. You can reach out to me by clicking 'Contact' menu.</p>
+                <p>Welcome to my portfolio, this website was built with <span>React.js</span>. Feel free to look around and if you have any questions, do not hesitate to contact me. You can reach out to me by clicking <span>Contact</span> menu.</p>
             </div>
         </div>
     )
