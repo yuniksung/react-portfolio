@@ -17,7 +17,7 @@ const footer = () => {
         </div>
         <div class="footer-text">
             <p>Designed and Built by Yunik Sung</p>
-            <p>Built with React.js, SCSS, and HTML</p>
+            <p>Built with React.js, SASS, and HTML</p>
         </div>
     </footer>
     )

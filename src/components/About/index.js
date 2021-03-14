@@ -80,10 +80,10 @@ const aboutPage = () => {
                     </a>
                 </div>
                 <div className="button">
-                    <a target="_blank" rel="noreferrer" href="./assets/images/Resume_Yunik Sung.pdf" className="icon">
+                    <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL+'/resume_yunik.pdf'} className="icon">
                         <i className="far fa-file-alt"></i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="./assets/images/Resume_Yunik Sung.pdf">
+                    <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL+'/resume_yunik.pdf'}>
                         <span>Resume</span>
                     </a>
                 </div>

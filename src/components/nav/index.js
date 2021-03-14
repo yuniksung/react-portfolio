@@ -25,7 +25,7 @@ function NavTabs(props) {
             
             </ul>
             <div className="resume-button">
-                <a target="_blank" rel="noreferrer" href="./resume_yunik.pdf">Resume</a>
+                <a target="_blank" rel="noreferrer" href={process.env.PUBLIC_URL+'/resume_yunik.pdf'}>Resume</a>
             </div>
         </div>
     )
