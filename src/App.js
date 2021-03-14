@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Nav from './components/Nav'
 import Header from './components/Header'
 import About from './components/About'
@@ -31,6 +31,11 @@ function App() {
         return <Home />
       }
     };
+
+
+    useEffect(()=>{
+      document.title=`Yunik's Website- ${currentPage}`
+    },)
 
     return (
     <div>

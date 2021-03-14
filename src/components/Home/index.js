@@ -7,7 +7,7 @@ function homePage() {
     return (
         <div className="homepage-container">
             <div className="homepage-image">
-
+                
             </div>
 
             <div className="homepage-text">

@@ -45,7 +45,6 @@ const ContactForm = () => {
         <section className="contact-container">
             <div className="contact-description">
                 <div className="contact-description-img">
-                he
                 </div>
             </div>
             <div className="contact-fields">
