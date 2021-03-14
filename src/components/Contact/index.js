@@ -18,7 +18,7 @@ const ContactForm = () => {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if(!isValid) {
-                setErrorMessage('Please fill out the form');
+                setErrorMessage('This field is required');
             } else {
                 if(!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);

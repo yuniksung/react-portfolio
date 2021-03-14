@@ -4,6 +4,7 @@ import '../../assets/scss/nav.scss';
 function NavTabs(props) {
     const tabs = ['Home', 'About', 'Work', 'Contact', 'Resume'];
 
+
     return(
         <div className='nav-bar'>
             <ul>
@@ -16,10 +17,12 @@ function NavTabs(props) {
                         props.currentPage === tab ? 'nav-link active' : 'nav-link'
                         }
                     >
+                        
                     {tab}
                     </a>
                 </li>
             ))}
+            
             </ul>
         </div>
     )
