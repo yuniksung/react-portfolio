@@ -25,7 +25,10 @@ const aboutPage = () => {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>SASS</li>
-                        <li>javascript</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
                     </ul>
                 </div>
                 <div className="back-end full-stack">
@@ -33,21 +36,10 @@ const aboutPage = () => {
                         <p>back-ends</p>
                     </div>
                     <ul>
+                        <li>Node</li>
                         <li>MySQL</li>
                         <li>Express</li>
-                        <li>React</li>
-                        <li>Node</li>
-                    </ul>
-                </div>
-                <div className="framework full-stack">
-                    <div className="skill-session fo">
-                        <p>Frameworks</p>
-                    </div>
-                    <ul>
-                        <li>jQuery</li>
-                        <li>Bootstrap</li>
-                        <li className="hide">I'm Good</li>
-                        <li className="hide">Hire Me</li>
+                        <li>MEARN Stack</li>
                     </ul>
                 </div>
                 <div className="other full-stack">

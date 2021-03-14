@@ -2,7 +2,7 @@
 
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin: 5vh auto 0 auto;
    
   }
   section.hero {
@@ -18,12 +18,13 @@
 
       .shaped {
         background-size: cover;
-        shape-outside: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
-        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        // shape-outside: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        // clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0, 100% 100%, 10% 100%);
         background-image: url('../images/hero.jpg');
         height: 300px;
         float:left;
-        width: 65%;
+        width: 60%;
         float: right;
         shape-margin: 20px;
       }
@@ -32,7 +33,7 @@
         box-sizing: border-box;
         background-color: rgb(44, 44, 44);
         color: rgb(236, 235, 235);
-        padding: 50px;
+        padding: 100px;
         height: 300px;
         width: 50%;
 
@@ -45,20 +46,6 @@
             font-family: 'Noto Serif', serif;
             letter-spacing: 1px;
             font-size: 16px;
-        }
-
-        p {
-          margin: 30px auto;
-          line-height: 130%;
-          letter-spacing: 1.2px;
-        }
-
-        a{
-            margin: 20px auto;
-            color: rgb(236, 235, 235);
-            text-decoration: none;
-            padding: 20px 0;
-            letter-spacing: 1.2px;
         }
       }
     }
