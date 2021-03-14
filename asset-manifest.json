@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6abdc23f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d2f1e5d2.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d2f1e5d2.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.5c871b78.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.5c871b78.js.map",
+    "static/js/2.6f2114a2.chunk.js": "/react-portfolio/static/js/2.6f2114a2.chunk.js",
+    "static/js/2.6f2114a2.chunk.js.map": "/react-portfolio/static/js/2.6f2114a2.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.6abdc23f.chunk.css.map": "/react-portfolio/static/css/main.6abdc23f.chunk.css.map",
+    "static/js/2.6f2114a2.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6f2114a2.chunk.js.LICENSE.txt",
+    "static/media/work.scss": "/react-portfolio/static/media/musicline1.0ae929fa.jpg",
+    "static/media/home.scss": "/react-portfolio/static/media/computer.2d490c44.jpg",
+    "static/media/contact.scss": "/react-portfolio/static/media/contact.c65ee666.jpg",
+    "static/media/header.scss": "/react-portfolio/static/media/hero.7f58beb7.jpg",
+    "static/media/About.scss": "/react-portfolio/static/media/m2.e0efd149.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c871b78.js",
+    "static/js/2.6f2114a2.chunk.js",
+    "static/css/main.6abdc23f.chunk.css",
+    "static/js/main.d2f1e5d2.chunk.js"
+  ]
+}
