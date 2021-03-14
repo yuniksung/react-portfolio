@@ -18,7 +18,7 @@ const ContactForm = () => {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if(!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('Please fill out the form');
             } else {
                 if(!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);
@@ -60,6 +60,11 @@ const ContactForm = () => {
                             placeholder="Name"
                             name="name" 
                             />
+                            {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
                     </div>
                     <div>
                         {/* <label htmlFor="email">Email address:</label> */}
@@ -70,6 +75,11 @@ const ContactForm = () => {
                             defaultValue={email} 
                             onBlur={handleChange}
                         />
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
                     </div>
                     <div>
                         {/* <label htmlFor="message">Message:</label> */}
