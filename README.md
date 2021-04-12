@@ -1,5 +1,5 @@
 # My portfolio using React.js
-    This portfolio webpage has built with React.js only.
+This portfolio webpage has built with React.js only.
 
 
 ## Link

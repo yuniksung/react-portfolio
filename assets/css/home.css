@@ -1,12 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+.homepage-container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.home-page {
-  background-color: red;
+.homepage-container .homepage-image {
+  width: 30%;
+  height: 500px;
+  margin: 0 0 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/computer.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.homepage-container .homepage-text {
+  width: 50%;
+  margin: 0 auto 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 100px;
+}
+
+.homepage-container .homepage-text .homepage-textbox {
   width: 100%;
-  height: 100vh;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.homepage-container .homepage-text .homepage-textbox h1 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 60px;
+  text-shadow: 6px 4px 4px #b3b3b3;
+}
+
+.homepage-container .homepage-text .homepage-textbox h1 span {
+  font-size: 45px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.homepage-container .homepage-text .homepage-textbox p {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  line-height: 120%;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.homepage-container .homepage-text .home-description {
+  width: 60%;
+  height: 50%;
+}
+
+.homepage-container .homepage-text .home-description p {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 120%;
+}
+
+.homepage-container .homepage-text .home-description p span {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 16px;
+  color: #d82828;
+  font-weight: 600;
 }
 /*# sourceMappingURL=home.css.map */

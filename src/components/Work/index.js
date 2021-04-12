@@ -112,6 +112,32 @@ const work = () => {
                 </div>
             </div>
         </div>
+
+        <div className="left-work third-assignment">
+            <div className="fifth-img">
+            </div>
+            <div className="left-content global-container">           <div className="portfolio-title">
+                    <p>Meal Queue</p>
+                </div>
+                <div className="left-description">
+                    <p>A Social Fitness Application to Connect Fitness Enthusiasts</p>
+                </div>
+                <div className="left-tech">
+                    <ul className="portfolio-list">
+                        <li>React.js</li>
+                        <li>React Hooks</li>
+                        <li>SCSS</li>
+                    </ul>
+                </div>
+                <div className="left-links">
+                    {/* <!-- Link to git repository --> */}
+                    <a href="https://github.com/maxhealy01/fit-club/tree/main" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
+                    {/* <!-- link to deployed application --> */}
+                    <a href="https://fit-clob.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-external-link-square-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
         <div className="other-project">
             <h1 className="project-title">
                 Other Projects
